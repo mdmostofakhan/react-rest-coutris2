@@ -1,14 +1,15 @@
 import React from 'react';
 import './Person.css'
+
 const Person = (props) => {
-    console.log(props)
-    // const {region, area, population, name} = props?.country;
+    // const {area, region} = props.country;
+//   console.log(props.country)
     return (
         <div className='container'>
-            <h1>Country Name:{props.name}</h1>
-            <p>population: {props.population}</p>
-            <h4>area: {props.area}</h4>
-            <p><small>region: {props.region}</small></p>
+            <h2>Name:{props.country?.name.common}</h2>
+        <img src={props.country?. flags?.png} alt="" />
+            <p>Area:{props.country?.area}</p>
+            <p>Region:{props.country?.region}</p>
         </div>
     );
 };
