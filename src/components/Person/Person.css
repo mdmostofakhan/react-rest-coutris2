@@ -1,0 +1,13 @@
+.container{
+    background-color: bisque;
+    border: 10px solid red;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.population{
+    color: lightcoral;
+    font-size: 15px;
+
+}
