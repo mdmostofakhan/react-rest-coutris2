@@ -14,7 +14,7 @@ const Countris = () => {
 
     return (
         <div>
-            <h1>Hello from Countries:{countris.length}</h1>
+            <h2>Hello from my of the  country Countries:{countris.length}</h2>
         <div className='countris-container'>
         {
             countris.map(country => <Person country={country}
